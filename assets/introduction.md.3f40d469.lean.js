@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,N as l}from"./chunks/framework.1b28a5c3.js";const d=JSON.parse('{"title":"Vue组件库模板","description":"","frontmatter":{},"headers":[],"relativePath":"introduction.md"}'),o={name:"introduction.md"},p=l("",14),e=[p];function t(c,r,i,D,y,F){return a(),n("div",null,e)}const u=s(o,[["render",t]]);export{d as __pageData,u as default};
