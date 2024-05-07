@@ -24,17 +24,18 @@ jobs:
           persist-credentials: false
 
       # 安装 pnpm
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 7
+      # - name: Install pnpm
+      #   uses: pnpm/action-setup@v2
+      #   with:
+      #     version: 7
 
       # 设置 node 版本
       - name: Set node version to 20
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: 'pnpm'
+          # cache: 'pnpm'
+          cache: 'npm'
 
       # 打包静态文件
       - name: Build
